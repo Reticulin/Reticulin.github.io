@@ -8,7 +8,7 @@
 
 I learned what exactly a "domain" was and I learned a good amount about DNS (Althoigh I feel I have much more to learn).
 
-When you're setting up your html, you need to remember to always close the sections of the code (ie. <html></html>)
+When you're setting up your html, you need to remember to always close the sections of the code (ie. html  /html)
 
 It's always a good feeling to see your web page live, but I have done it serveral times before (Will always and forever feel good to see it open).
 
