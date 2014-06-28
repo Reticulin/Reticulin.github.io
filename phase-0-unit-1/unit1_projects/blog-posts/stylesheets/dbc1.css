@@ -1,0 +1,19 @@
+span {
+	color: red;
+	font-family: cursive;
+}
+
+body {background-color: yellow;}
+
+p {background-color: yellow;}
+
+.class1 {
+	color:red;
+	background-color:black;
+}
+
+#title1 {
+	color:green;
+	background-color:black;
+	font-weight:bolder;
+}
