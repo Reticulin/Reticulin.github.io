@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link type="text/css" rel="stylesheet" href="stylesheets\dbc1.css"/>
+<title> Part One </title>
+</head>
+<body>
+<h1 id="title1"> Welcome to my Web Page! </h1>
+<h2 id="title1"> Welcome to my Web Page! </h2>
+<h3 id="title1"> Welcome to my Web Page! </h3>
+<h4 id="title1"> Welcome to my Web Page! </h4>
+<h5 id="title1"> Welcome to my Web Page! </h5>
+<h6 id="title1"> Welcome to my Web Page! </h6>
+<p class="class1">
+Hi there!<br> My name is <b>Joey</b> and this is my most basic of basic web page! As you can see, I'm just adding random things into my code to see if I can get everything to work. <span>Wish me luck!</span>
+</p>
+
+<p class="class1">
+Here I'd like to show you what i have currently for my dekstop wallpaper. I like this picture very much and I will make it linkable to my most used website. Can you guess what it is???
+</p>
+<a href="https://google.com"><img src="images\bomb.png"/></a>
+
+<p class="class1">
+Can anyone guess what video game this picture relates to? If you said "<i>World of Warcraft</i>", then you are correct! Correct in being completely wrong!!!!! This is a picture of several bo-bombs from "<i>Super Mario</i>"!
+</p>
+
+<a href="https://github.com/reticulin" target="_blank">Please visit my GitHub page!</a>
+<a href="mailto:pollenachoo@gmail.com">Feel free to email me with any questions!</a>
+<li><p><b>Interests</b></p>
+	<ul>
+		<li>Computers</li>
+		<li>Cars</li>
+		<li>Video Games</li>
+		<li>Food</li>
+	</ul>
+</li>
+
+<li><p><b>Favorite Foods</b></p>
+	<ol>
+		<li>Pasta</li>
+		<li>Sushi</li>
+		<li>Real Chinese Food</li>
+	</ol>
+</li>
+
+</body>
+</html>
