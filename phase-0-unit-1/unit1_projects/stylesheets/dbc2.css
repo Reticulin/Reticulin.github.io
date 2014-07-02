@@ -9,6 +9,10 @@ body {
 	font-family:Arial;
 	font-size:150%;
 	clear:both;
+	min-width:100%;
+}
+img {
+	max-width: 100%
 }
 
 #sidebar
