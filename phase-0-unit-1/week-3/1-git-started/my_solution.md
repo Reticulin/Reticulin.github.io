@@ -2,44 +2,43 @@
 Define the following commands and describe how they work/what they do.  
 
 
-#### add
-<!-- Your defnition here -->
+#### add 
+It makes new files noticeable to git
 
 #### branch
-<!-- Your defnition here -->
+to create a branch repository if you wanted to "branch" off your work
 
 #### checkout
-<!-- Your defnition here -->
-
+To actually check out a repository
 #### clone
-<!-- Your defnition here -->
+to make a copy of a repository in a new directory
 
 #### commit
-<!-- Your defnition here -->
+takes a snapshot of the repository
 
 #### fetch
-<!-- Your defnition here -->
+download things from another repository
 
 #### log
-<!-- Your defnition here -->
+a way to see what work was done and who did it
 
 #### merge
-<!-- Your defnition here -->
+merge repositories
 
 #### pull
-<!-- Your defnition here -->
+grab files from github and sync with you computer
 
 #### push
-<!-- Your defnition here -->
+to take files from your computer and sync them with github
 
 #### reset
-<!-- Your defnition here -->
+resets the files noticeable to git
 
 #### rm
-<!-- Your defnition here -->
+removes a file from the index
 
 #### status
-
+Shows what's new and what's ready to be pushed
 
 ## Release 4: Git Workflow
 
@@ -53,3 +52,5 @@ Define the following commands and describe how they work/what they do.
 3. Cause (explain the error)
 
 ## Release 6: Reflection
+
+I actually preferred using the command console for git rather than the app from the start of DBC. Just felt that I had more control with the console. Most of these commands were already known to me, but its good to get a refresher and look up specific definitions for each. Practice is the best way to learn and since I have to do work from 2 computers, I had a lot of practice.
