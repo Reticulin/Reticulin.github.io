@@ -7,6 +7,13 @@ body {
   margin: 0px auto;
   min-width: 100%;
   width: 100%;
+  font-family: Verdana;
+}
+a:hover{
+  color:black;
+}
+li a:hover{
+  color:black;
 }
 
 p {
