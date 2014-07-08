@@ -2,6 +2,10 @@
 
 // __________________________________________
 // Write your code below.
+var secretNumber = 7
+var password = "just open the door"
+allowedIn = Boolean(10<8)
+var members = ["John", "Joe", "Sarah", "Mary"]
 
 
 
@@ -9,15 +13,18 @@
 
 
 
-
-// __________________________________________
-// Reflection: Use the reflection guidelines to write a reflection here. 
-// 
-// 
-// 
-// 
-// 
-// 
+// __________________________________________ Reflection: Use the reflection
+// guidelines to write a reflection here.  My strategy was to get each of the
+// code sections to come out as true. My first question was, " What am I
+// supposed to do here?". When I was coding, I just needed a quick refresher
+// on what soecific syntax to use in order to achieve my goal. I used good old
+// W3schools to help me out. The concept was pretty straightforward, however I
+// felt that the instructions could have used more detail. Didn't really learn
+// anything new on this one, just refreshed my JS knowledge (what little there
+// was). I'm pretty confident with each of the learning competencies. I
+// enjoyed solving the puzzle so to speak. I enjoy solving problems, so this
+// was pretty fun for me. The only tedious part was trying to figure out my
+// objective and how to go about accomplishing it.
 
 
 // __________________________________________
@@ -85,4 +92,6 @@ assert(
   "The fourth element in the value of members should be 'Mary'.",
   "9. "
 )
+
+
 
