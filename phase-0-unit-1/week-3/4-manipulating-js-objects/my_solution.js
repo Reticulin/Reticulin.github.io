@@ -1,7 +1,7 @@
 // I worked on this challenge: [by myself, with: ]
 
 
-// There is a section below where you will write your code.
+// There is a section below where you will write your code.terah.children = [carson, carter, colton];
 // Do not alter this object here.
 
 
@@ -12,14 +12,40 @@ var terah = {
   weight: 130,
   hairColor: "brown",
   eyeColor: "brown"
-}
+};
 
 
 
 // __________________________________________
 // Write your code below.
 
+var adam = {
+  name: "Adam"
+};
+var carter = {
+    name: "Carter"
+    };
+var carson = {
+    name: "Carson"
+    };
+var colton = {
+    name: "Colton"
+    };
 
+
+terah.spouse = adam;
+terah.weight = 125;
+terah.eyeColor = undefined;
+terah.spouse.spouse = terah;
+terah.children = [carter, carson, colton];
+terah.children.carter = carter;
+terah.children.carson = carson;
+terah.children.colton = colton;
+
+
+
+
+adam.children = terah.children;
 
 
 
