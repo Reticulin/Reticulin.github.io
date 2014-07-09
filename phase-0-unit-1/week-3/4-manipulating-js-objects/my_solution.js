@@ -52,14 +52,14 @@ adam.children = terah.children;
 
 
 
-// __________________________________________
-// Reflection: Use the reflection guidelines
-// 
-// 
-// 
-// 
-// 
-// 
+// __________________________________________ Reflection: Use the reflection
+// guidelines  
+
+//    Didn't really have a strategy for this one, just kept coding as
+// I went along. I had trouble with the children part and defining each of
+// them, however, I was able to get it eventually. I guess the thing that I
+// take away from this is getting the children part to work. I found this
+// assignment semi enjoyable, but just felt moreso like a practice assignment.
 
 
 // __________________________________________
