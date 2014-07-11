@@ -6,7 +6,7 @@
 
 ## Learning Competencies
 - Define local variables in JavaScript
-- Create, add properties to, delete properties from, and access values from JavaScript Object literals
+- Create, add properties to, delete properties from, and access property values of JavaScript Object literals
 - BONUS: Integrate HTML, CSS, and JavaScript to display and manipulate objects
 
 

@@ -7,8 +7,7 @@
 * What concepts were solidified in the challenge? Did you have any "aha" moments? What did you struggle with?
 * Did you find any resources on your own that helped you better understand a topic? If so, please list it.
 
-First you will have to log into your GitHub account, if you don't have an account then you will have to make one. Once you are in your account, go ahead and create a new repository. You should now have a form to complete. Go ahead and name your repository and fill out the rest of the form. After that's done you can finish by creating the repository. Go into your repository and on the bottom right side you will see your repository's URL. Go ahead and click the "copy to clipboard" button". Now open your terminal and enter the following code to clone the repository to your local computer 
-"git clone https://github.com/USERNAME/REPOSITORYNAME.github.io.git". Congratulations!! you created a repository on GutHub and then cloaned it to your local machine!
+First you will have to log into your GitHub account, if you don't have an account then you will have to make one. Once you are in your account, go ahead and create a new repository. You should now have a form to complete. Go ahead and name your repository and fill out the rest of the form. After that's done you can finish by creating the repository. Go into your repository and on the bottom right side you will see your repository's URL. Go ahead and click the "copy to clipboard" button". Now open your terminal and enter the following code to clone the repository to your local computer "git clone https://github.com/USERNAME/REPOSITORYNAME.github.io.git". Congratulations!! you created a repository on GutHub and then cloaned it to your local machine!
 
 Open source means a code is open for others to change, add and do whatever they want to do with it.
 

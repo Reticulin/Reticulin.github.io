@@ -30,7 +30,7 @@ From this point forward, all work will happen within the `unit1_projects` folder
 * [Beginners guide to HTML and CSS](http://learn.shayhowe.com/html-css/)
 * [HTML tag cheatsheat](http://skillcrush.com/wp-content/uploads/2012/06/HTML-Cheatsheet-Skillcrush.pdf)
 
-What other resources can you find? Share them in the resources spreadsheet in your google+ community (located in the links on the right)
+What other resources can you find? Share them in the google+ community.
 
 #### b. Experiment
 Create a new html page in your repository called `dbc1.html`

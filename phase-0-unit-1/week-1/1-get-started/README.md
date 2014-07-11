@@ -22,15 +22,6 @@ Have you signed up for [GitHub](http://www.github.com) yet? If not, [sign up her
 I'm sure you've chosen an excellent and memorable username for GitHub, so don't forget it! When you see "[USERNAME]" in this guide, replace it with your username. For example, my username is "rmw".  So "github.com/**[USERNAME]**" becomes "github.com/**rmw**".
 
 
-#### B. Install the GitHub App
-
-Download the GitHub desktop application.
-
-- [Mac](http://mac.github.com/)
-- [Windows](http://windows.github.com/)
-
-*Note: if you are using Linux, you'll need to use the command line for Git. We will have instructions for this later.*
-
 ### Release 1: Learn
 
 #### What's this git stuff?

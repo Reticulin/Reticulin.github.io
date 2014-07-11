@@ -1,6 +1,6 @@
 [Week 3 Home](../)
 
-# U1.W3: Asynchronous Group Project
+# U1.W3: Code Telephone (group challenge)
 
 ## Learning Competencies
 - Write easily implementable pseudocode based on tests
@@ -15,7 +15,7 @@ You will be required to work with others in your career as a developer, but you 
 
 Most of this challenge will probably need to be done between Thursday and Sunday (so you feel comfortable with JavaScript before hand). Email your group to decide on a potential schedule. 
 
-***Notes on this challenge**
+**Notes on this challenge**
 If you are the first person, reach out to your accountability group to let them know when they should expect your solution. If you can't complete it by the middle of the week (Wed), the second person should be defaulted to the first person role, unless you are all in agreement to do it on a delayed schedule (as long as it's all in by Sunday). If you have trouble getting into contact with people in your group, please contact the Phase 0 Facilitator to let her know. It's really important that you have the participation of each person. See the graphics below for help knowing who you need to send your files to depending on the size of your accountability group. **Do NOT look at the tests if you are not person 1!**
 
 ## Release 0: Person 1 
@@ -50,13 +50,13 @@ When you finish your coding, make sure the code runs without any syntax errors. 
 
 When you are finished, send your solution to the next person in your group (again based on the graphics below). 
 
-** Person 4 will also do this in a five and six person group.**
+**Person 4 will also do this in a five and six person group.**
 
 ## Release 3: Person 4 
 ### [Refactor](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/refactoring.md) and translate
 **Rename your [my_solution.js](./my_solution.js) file to `gc1_refactored.js`**
 
-When you receive the `gc1_initial_solution.js` links, refactor it/them to make the code more clear. Then translate each into user stories. You will send your refactored code and your user stories to the first person in the group.
+When you receive the `gc1_initial_solution.js` links, refactor it/them to make the code more clear. Then translate each into user stories. You may not change the way the code works, even if it's broken. The inputs and outputs must stay the same. You should clean up the internals of the method or the method/argument names. You will send your refactored code and your user stories to the first person in the group.
 
 **Person 5 and 6 do this in a five or six person group**
 
@@ -74,8 +74,8 @@ In the reflection section of your formerly named 'my_solution.js` file, reflect 
 - What did you learn about writing user stories, pseudocoding, writing code, refactoring, etc.?
 
 
-![4_person.jpg](/week_3/imgs/4_person.jpg)<br><br><br>
-![5_person.jpg](/week_3/imgs/5_person.jpg)<br><br><br>
+![4_person.jpg](/week-3/imgs/4_person.jpg)<br><br><br>
+![5_person.jpg](/week-3/imgs/5_person.jpg)<br><br><br>
 <!-- ![6_person.jpg](/week_3/imgs/6_person.jpg)<br><br><br> -->
 
 ## Resources

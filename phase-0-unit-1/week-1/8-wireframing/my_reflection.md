@@ -10,4 +10,5 @@
 * Which parts of the challenge did you enjoy?
 * Which parts of the challenge did you find tedious?
 
-<!-- Add your reflection here. Remove the comment markers -->
+I just learned that designs don't always go according to plan. I enjoy the coding aspect of making a site, but I don't like the design part. Getting an idea is the hardest part for me. I asked myself what different things I could do to make it look better. I learned some new commands with css which I find helpful and good looking. I'm pretty confident with all the learning competencies. I enjoyed the coding aspect of this assignment, but not the design part.
+

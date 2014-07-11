@@ -30,7 +30,7 @@ in the console when they pass--`false`, otherwise.
 ## Release 1: [Initial Solution](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/initial-solution.md)
 Turn your pseudocode into code by translating each step into code until the test passes.
 
-You'll want to follow the outline below:
+You'll want to follow the outline below. Note that each step should build on but not modify any of the code before it.
 1. Define a variable adam and use object literal notation to assign this variable 
    the value of a JavaScript Object object with no properties.
 
