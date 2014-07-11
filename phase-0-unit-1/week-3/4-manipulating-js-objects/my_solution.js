@@ -1,7 +1,7 @@
 // I worked on this challenge: [by myself, with: ]
 
 
-// There is a section below where you will write your code.terah.children = [carson, carter, colton];
+// There is a section below where you will write your code.
 // Do not alter this object here.
 
 
