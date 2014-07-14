@@ -1,0 +1,77 @@
+body{
+	background-image:url("http://www.bangngangan.com/images/old-grunge-paper-texture-wild-textures_3434854.jpg");
+	min-width:100%;
+	max-width:100%;
+	font-weight:300;
+}
+
+img {
+	max-width:100%;
+	padding-bottom:1%;
+	clear:both;
+}
+
+h1{
+	font-size:36px;
+}
+
+h2{
+	margin-top: 10%;
+	font-size:24px;
+
+}
+
+p{
+	font-size:16px;
+}
+
+
+#header {
+	width: 30%;
+	text-align:center;
+	margin:auto;
+	max-width:100%;
+	clear:both;
+}
+
+
+#sidebar {
+    float: right;
+    width: 5%;
+    font-size: 90%;
+    margin-left: 80%;
+    margin-top: 5%;
+    position:fixed;
+    max-width:100%;
+    padding:3%;
+    clear:both;
+
+
+}
+
+#sidebar li{
+    list-style-type:none;
+    margin-bottom:15%;
+}
+
+#sidebar a:hover{
+	color:red;
+}
+
+#page-wrap { 
+  width: 15%; 
+  margin: 5% auto; 
+  position: relative; 
+  clear:both;
+}
+
+.presidents {
+	max-width: 50%;
+	text-align:center;
+	text-indent:5%;
+	margin:auto;
+	color:black;
+	margin-bottom:10%;
+	float:left;
+	background-color:#CECECE;
+}
