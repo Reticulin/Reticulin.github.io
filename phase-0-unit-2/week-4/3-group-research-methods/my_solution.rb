@@ -19,12 +19,20 @@ end
 #
 
 # Person 2
-def my_array_modification_method(source, thing_to_modify)
-  # Your code here!
+def my_array_modification_method(source, modify)
+  source.map! { |i|
+    if (i.is_a? Numeric)
+        i += modify
+    else
+        i
+    end
+}
 end
 
-def my_hash_modification_method(source, thing_to_modify)
-  # Your code here!
+def my_hash_modification_method(source, modify)
+    source.each { |k, v| source[k] = v += modify }
+end
+
 end
 
 # Identify and describe the ruby method you implemented. 
@@ -78,7 +86,7 @@ p my_array_deletion_method(i_want_pets, "a") == ["I", 4, "pets", "but", "only", 
 p my_hash_deletion_method(my_family_pets_ages, "George") == {"Evi" => 8, "Hoobie" => 5, "Bogart" => 6, "Poly" => 6, "Annabelle" => 2, "Ditto" => 5}
 
 # Reflect!
-# 
+# I had a pretty good strategy in place for this one. I basically broke down what I needed to do and researched on the proper syntax for my objectives. The research took time since there are many different types of syntax. I enjoyed solving the problems and learned some new tricks with arrays and hashes. A great resource was code academy where I was able to use their terminal to run my code and figure out what was going wrong.
 # 
 # 
 # 
