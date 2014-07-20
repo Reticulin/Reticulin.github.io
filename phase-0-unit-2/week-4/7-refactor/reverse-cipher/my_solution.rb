@@ -11,23 +11,23 @@
 # Try implementing the code without it. 
 
 def translate_to_cipher(sentence)
-    alphabet = ('a'..'z').to_a
-    cipher = Hash[alphabet.zip(alphabet.rotate(4))]
-    spaces = ["@", "#", "$", "%", "^", "&", "*"]
+    alphabet = ('a'..'z').to_a #Defining alphabet as a variable that has an array with letters in it from a to z
+    cipher = Hash[alphabet.zip(alphabet.rotate(4))] #creating a hash that has the letters from alphabet and letters from rotating the alohabet 4 times and puts them into 26 dfferent arrays. An array for each pair both alphabet and rotated alphabet
+    spaces = ["@", "#", "$", "%", "^", "&", "*"] # setting a variable for spaces in the form of an array
     
-    original_sentence = sentence.downcase
-    encoded_sentence = []
-    original_sentence.each_char do |element|
-      if cipher.include?(element)
-        encoded_sentence << cipher[element]
-      elsif element == ' '
-        encoded_sentence << spaces.sample
-      else 
-        encoded_sentence << element
+    original_sentence = sentence.downcase #setting variable for original sentence which will be sentence downcased
+    encoded_sentence = [] #setting variable for encoded sentence which will be put into an array
+    original_sentence.each_char do |element| #takes each character from sentence and does an argument
+      if cipher.include?(element) #checking if the cipher variable includes that element
+        encoded_sentence << cipher[element] #if that element is included it will put the cipher element which will be the rotated alphabet
+      elsif element == ' '# checking if the element is a space
+        encoded_sentence << spaces.sample#If a space is found it will pull a random variable from the spaces object and input it
+      else #if none of the above are true
+        encoded_sentence << element #it will input the original element into the final message
       end
      end
     
-    return encoded_sentence.join
+    return encoded_sentence.join #It will return the encoded version of the message and join it together
 end
 
 
