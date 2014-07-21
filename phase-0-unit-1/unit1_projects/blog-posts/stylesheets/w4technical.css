@@ -5,16 +5,14 @@ body {
 	min-width:100%;
 	font-family:Verdana;
 }
+
 div{
-	max-width:60%;
-	padding-bottom:3%
+
 }
 
 img {
 	max-width:100%;
-	padding-bottom:1%;
 	clear:both;
-	float:right;
 }
 
 h1{
@@ -39,10 +37,12 @@ p{
 	max-width:50%;
 }
 .container{
-	max-width:60%;
+	max-width:70%;
 	margin-left:auto;
 	margin-right:auto;
-	margin-bottom:15%;
+	padding-top: 5%;
+	text-align: center;
+	margin-top: 5%;
 }
 
 #opening p{
@@ -106,27 +106,47 @@ p{
 }
 
 .content{
-	float:left;
-	max-width:40%;
+	max-width:50%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 5%;
+	padding-top: 2%;
+	clear:both;
+
 }
 
 .example{
-	float:right;
-	max-width:40%;
+	display:inline-block;
+	margin-right: auto;
+	margin-left: auto;
 }
 
+.exampler{
+	float:right;
+	display:inline-block;
+	clear: both;
+}
+
+.examplel{
+	float:left;
+	display:inline-block;
+	clear:both;
+}
 
 .sheader{
 	margin-left:auto;
 	margin-right:auto;
-	padding-top:15%;
+	padding-top:5%;
 	text-align:center;
 }
 
 .ccontainer{
 	text-align: center;
-	margin:auto;
-	max-width:60%;
-	clear:both;
-	padding-bottom:40%;
+	max-width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	border-style:dashed;
+	border-width:5px;
+	border-color:transparent;
 }
