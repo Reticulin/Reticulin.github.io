@@ -1,9 +1,10 @@
 body {
-	background-image:url("http://buffuptherec.com/wp-content/uploads/2014/07/free-pictures-orange-background-abstract-images-orange-background.jpg");
+	background-image:url("background-1.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
 	min-width:100%;
 	font-family:Verdana;
 }
-
 div{
 
 
