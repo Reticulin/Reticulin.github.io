@@ -5,10 +5,10 @@
 # EXPLANATION OF require_relative
 #
 #
-require_relative 'state_data'
+require_relative 'state_data' #runs the file state_data along with this file
 
 class VirusPredictor
-
+  #initialize method for class is defining objects
   def initialize(state_of_origin, population_density, population, region, regional_spread)
     @state = state_of_origin
     @population = population
@@ -16,14 +16,14 @@ class VirusPredictor
     @region = region
     @next_region = regional_spread
   end
-
+  #creating arguments for upcoming methods
   def virus_effects  #HINT: What is the SCOPE of instance variables?
     predicted_deaths(@population_density, @population, @state)
     speed_of_spread(@population_density, @state)
   end
 
-  private  #what is this?  what happens if it were cut and pasted above the virus_effects method
-
+  private  #makes anything below this line to become unaccessible to outside objects, putting private above virus effects will prevent the code from running
+  #uses previous instance variables to calculate predicted_deaths
   def predicted_deaths(population_density, population, state)
     if @population_density >= 200
       number_of_deaths = (@population * 0.4).floor
@@ -40,7 +40,7 @@ class VirusPredictor
     print "#{@state} will lose #{number_of_deaths} people in this outbreak"
 
   end
-
+  #uses prebious instance variables to calculate speed_of_spread
   def speed_of_spread(population_density, state) #in months
     speed = 0.0
 
@@ -66,7 +66,13 @@ end
 
 # DRIVER CODE
  # initialize VirusPredictor for each state
-
+STATE_DATA.each do |key|
+  puts key
+  value.each do |k, v|
+    puts k
+    puts v
+  end
+end
 
 alabama = VirusPredictor.new("Alabama", STATE_DATA["Alabama"][:population_density], STATE_DATA["Alabama"][:population], STATE_DATA["Alabama"][:region], STATE_DATA["Alabama"][:regional_spread]) 
 alabama.virus_effects
