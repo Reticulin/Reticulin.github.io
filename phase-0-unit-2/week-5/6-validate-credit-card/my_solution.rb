@@ -22,6 +22,7 @@ class CreditCard
 		end
 	def check_card
 		@card.to_s.chars.map(&:to_i)
+		@card
 
 
 end

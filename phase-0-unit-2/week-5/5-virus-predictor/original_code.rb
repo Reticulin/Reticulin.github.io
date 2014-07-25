@@ -1,6 +1,6 @@
 # U2.W5: Virus Predictor
 
-# I worked on this challenge [by myself, with: ].
+# I worked on this challenge [by myself, with:Kevin Aungle ].
 
 # EXPLANATION OF require_relative
 #
@@ -66,14 +66,11 @@ end
 
 # DRIVER CODE
  # initialize VirusPredictor for each state
-STATE_DATA.each do |key|
-  puts key
-  value.each do |k, v|
-    puts k
-    puts v
-  end
+STATE_DATA.each do |key, value|
+  value = VirusPredictor.new(key,STATE_DATA[key][:population_density], STATE_DATA[key][:population], STATE_DATA[key][:region], STATE_DATA[key][:regional_spread])
+  value.virus_effects
 end
-
+=begin
 alabama = VirusPredictor.new("Alabama", STATE_DATA["Alabama"][:population_density], STATE_DATA["Alabama"][:population], STATE_DATA["Alabama"][:region], STATE_DATA["Alabama"][:regional_spread]) 
 alabama.virus_effects
 
