@@ -1,8 +1,10 @@
 # Week 5: Ruby Classes
 
-Please do not start on week 5 yet, we will be reviewing the challenges and making changes. It will be published at least by the Sunday before week 5 starts. -->
+<!-- Please do not start on week 5 yet, we will be reviewing the challenges and making changes. It will be published at least by the Sunday before week 5 starts. -->
 
-<!-- This week you will be working on creating ruby classes and translating RSpec into driver test code. Please make sure to follow each step we ask you to do (write driver test code, pseudocode, initial solution, refactoring, reflection, and review). This week gets into more advanced concepts, so make sure you pair as often as you need to ensure you are able to learn efficiently and have fun doing it! You can pair on any challenge (except for solo challenges) and you have an awesome community of programmers to pair with. You can always ask people to pair on the community and work with people from other locations! You'll also want to take some time to research classes upfront before diving in if you are unfamiliar. There are a ton of great resources out there that will help with this. 
+This week you will be working on creating ruby classes and translating RSpec into driver test code. Please make sure to follow each step we ask you to do (write driver test code, pseudocode, initial solution, refactoring, reflection, and review). This week gets into more advanced concepts, so make sure you pair as often as you need to ensure you are able to learn efficiently and have fun doing it! You can pair on any challenge (except for solo challenges) and you have an awesome community of programmers to pair with. You can always ask people to pair on the community and work with people from other locations! You'll also want to take some time to research classes upfront before diving in if you are unfamiliar. There are a ton of great resources out there that will help with this.
+
+Continue to read about classes, objects, self, etc. in the Ruby book you selected. You want to continue to broaden and deepen your understanding of Ruby. If you are using the *Well-Grounded Rubyist*, chapters 2, 3, 4, and 5 would be useful. 
 
 
 ## Challenges
@@ -10,7 +12,7 @@ Please do not start on week 5 yet, we will be reviewing the challenges and makin
 2. [Die Class 2: Arbitrary Symbols](2-die)
 3. [Build a Simple Guessing Game](3-guessing-game)
 4. [A Nested Array to Model a Boggle Board SOLO CHALLENGE](4-boggle-board-solo-challenge)
-5. [Virus Predictor](5-virus-predictor)
+5. [Virus Predictor](5-virus-predictor) **Pairing Challenge**
 6. [Validate Credit Card](6-validate-credit-card)
 7. [Technical Blog](7-technical-blog.md)
 8. [Cultural Blog](8-cultural-blog.md)

@@ -1,6 +1,7 @@
 [Week 5 Home](../)
 
 # U2.W5: A Nested Array to Model a Boggle Board **SOLO CHALLENGE**
+
 Please refer to the [solo challenge](https://github.com/Devbootcamp/phase-0-handbook/blob/master/solo-challenges.md) guidelines in the [Phase 0 Handbook](https://github.com/Devbootcamp/phase-0-handbook).
 
 
@@ -14,7 +15,7 @@ Please refer to the [solo challenge](https://github.com/Devbootcamp/phase-0-hand
 
 We've already worked with hashes and arrays as data structures.  They are handy ways of collecting and organizing data, and ideal for modeling a group of objects.  
 
-In this challenge, we're going to model a grid or a board that has coordinates for each of it's cells.  A logical way of modeling a board is to use a nested array, where a row and column are its coordinates.
+In this challenge, we're going to model a grid or a board that has coordinates for each of its cells.  A logical way of modeling a board is to use a nested array, where a row and column are its coordinates.
 
 Let's explore a boggle board as an example.
 
@@ -37,13 +38,14 @@ In boggle, you can spell out words by collecting letters that are immediately ne
   puts create_word(boggle_board, [2,1], [1,1], [1,2], [0,3])  #=> returns "code"  
   puts create_word(boggle_board, [0,1], [0,2], [1,2])  #=> creates what california slang word?
   ```
-### This challenge has 2 Parts. For each section, follow the steps in the releases. 
+### This challenge has 2 Parts. For each section, follow the steps in each release. 
 
 #### Part 1: Write a method that takes a row number and returns all the elements in the row.  
+Our 'create_word' method works, but we don't want our methods to require the board we are working with to be an argument. How could you implement a class so that your methods only require an integer as an argument, like so:
 
 ```ruby
 def get_row(row)
-    # your code here
+  # your code here
 end
 
 get_row(1) #=>  ["i", "o", "d", "t"]
@@ -51,6 +53,7 @@ get_row(1) #=>  ["i", "o", "d", "t"]
 
 
 #### Part 2: Now write a method that takes a column number and returns all the elements in the column.
+The Enumerable module is great, but let's leave those methods for when we refactor. What can you use instead?
 
 ```ruby
 def get_col(col)
@@ -70,12 +73,16 @@ puts boggle_board[2][3] == "x" #=> should be false
 
 
 ## Release 0: [Pseudocode](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding_references/pseudocode.md)
+Write pseudocode for your `get_row` and `get_column` methods 
 
 ## Release 1: [Initial Solution](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding_references/initial_solution.md)
+Write the initial solution for each method
 
 ## Release 2: [Refactored Solution](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding_references/refactoring.md)
+Refactor your initial solutions! 
 
 ## Release 3: [Reflect](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/reflection-guidelines.md)
+Along with your reflection describe what the splat operator in the 'create_word' method is doing.
 
 ## Release 4: Push your solution to Github
 

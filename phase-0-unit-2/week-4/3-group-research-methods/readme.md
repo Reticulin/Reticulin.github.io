@@ -17,11 +17,13 @@ use them on `Array`s and `Hash`es.
 Research and test these methods out thoroughly. You may want to play around with them in IRB to 
 figure out exactly how they work before you can implement them properly. 
 
+You will also want to read up on destructive and non-destructive methods. Destructive methods change the original data. Non-Destructive methods return new data based on what you're doing, but the original data remains the same. For each of these, you will be asked to use destructive or non-destructive methods, so please read the instructions carefully.
+
 ## Release 0:
 Refer to your accountability group spreadsheet to find your role. 
 
 Each person has a challenge to solve. This does not need to be done in any order. **BUT the driver test code 
-needs each method in order to work.** If you don't have your group-members' solutions, copy, paste, and modify your tests, comment out the originals. Then check it all still works when you get the other code. 
+needs each method in order to work.** If you don't have your group-members' solutions, copy, paste, and modify your tests, comment out the originals. Then check it all still works when you get the other solutions. 
 
 Using the [Ruby Docs](http://ruby-doc.org/) find one method you can use
 on both an array and a hash, and use it on the two structures to complete the goal. 
@@ -40,7 +42,7 @@ my_family_pets_ages = {"Evi" => 6, "Hoobie" => 3, "George" => 12, "Bogart" => 4,
 
 #### Person 1: Find Matching Data
 Create a method `my_array_finding_method` that takes an `Array` and a letter as arguments
-and returns the words that contain that letter.
+and returns a new array of the words that contain that letter.
 
 For example:
 ```ruby
@@ -48,15 +50,15 @@ my_array_finding_method(i_want_pets, "t") #=> should return ["want","pets","but"
 ```
 
 Create a method `my_hash_finding_method` that takes a `Hash` and number as arguments and 
-returns a list of pet names by age. 
+returns a new array of pet names by age. 
 Ex. 
 ```ruby
 my_hash_finding_method(my_family_pets_ages, 3) #=> should return ["Hoobie", "Ditto"]
 ```
 
 #### Person 2: Modify Existing Data
-Two years have passed since I made these, so they need to be updated. **HINT: the actual 
-data structures need to be modified**
+Two years have passed since I made these, so they need to be updated. I want the original data to change since I never plan on going back.
+
 I recently got a new pet, but I still want another!
 Create a `my_array_modification_method` that takes an array and number to be added to all
 internal numbers. (Because you can never have too many pets!) For example:
@@ -75,7 +77,7 @@ my_hash_modification_method(my_family_pets_ages, 2)
 
 #### Person 3: Sort Data
 I want to create a sorting method that alphabetizes an array. I also want to create a sorting method that arranges
-the data in my hash by age (starting with the youngest first). This should not modify the existing data structure.
+the data in my hash by age (starting with the youngest first). I want to see what happens when I do this, but I don't want it to modify the existing data.
 
 ```ruby
 my_array_sorting_method(i_want_pets) #=>
@@ -88,14 +90,15 @@ my_hash_sorting_method(my_family_pets_ages) #=>
 
 #### Person 4: Delete Matching Data
 Sometimes you no longer need data that matches something. Create a `my_array_deletion_method` that takes an array
-and a letter, and deletes all the strings that contain that letter. This should modify the existing structure.
+and a letter, and deletes all the strings that contain that letter. This should modify the original because we now permanently hate that letter.
+
 For example: 
 ```ruby 
 my_deletion_method(i_want_pets, "a") 
 #=> ["I", 4, "pets", "but", "only", 3, ":(." ]
 ```
 
-Poor George passed away. He had a good life, but I need to remove him from my list. 
+Poor George passed away. He had a good life, but I need to permanently remove him from my list. 
 
 ```ruby
 my_deletion_method(my_family_pets_ages, "George") 
