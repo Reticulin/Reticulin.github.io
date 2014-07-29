@@ -12,35 +12,36 @@ attr_reader :contents
 
 # Are there any more methods needed in this class?
 
-def initialize
-@contents = []
-@open = true
-end
+	def initialize
+		@contents = []
+		@open = true
+	end
 
-def open
-@open = true
-end
+		def open
+			@open = true
+		end
 
-def close
-@open = false
-end 
+		def close
+			@open = false
+		end 
 
-def add_item
-@contents << item
-end
+		def add_item(item)
+			@contents << item
+		end
 
-def remove_item(item = @contents.pop) #what is `#pop` doing?
-@contents.delete(item)
-end
+		def remove_item(item = @contents.pop(0)) #what is `#pop` doing?:pop takes the last element in an array and removes it
+			@contents.delete(item)
+		end
 
-def dump  # what should this method return?
-puts "Your drawer is empty."
-end
+		def dump  # what should this method return?
+			puts "Your drawer is empty."
+		end
 
-def view_contents
-puts "The drawer contains:"
-@contents.each {|silverware| puts "- " + silverware.type }
-end
+		def view_contents
+			puts "The drawer contains:"
+			@contents.each {|silverware| puts "- " + silverware.type }
+		end
+	end
 
 
 class Silverware
@@ -48,24 +49,38 @@ attr_reader :type
 
 # Are there any more methods needed in this class?
 
-def initialize(type, clean = true)
-@type = type
-@clean = clean
+		def initialize(type, clean = true)
+			@type = type
+			@clean = clean
+		end
+
+			def eat
+				puts "eating with the #{type}"
+				@clean = false
+			end
+
+			def clean_silverware
+				puts "cleaning the #{type}"
+				@clean = true
+			end
+
 end
 
-def eat
-puts "eating with the #{type}"
-@clean = false
-end
-
+def assert
+	raise ArgumentError.new("Error") unless yield
+		if yield
+			puts true
+		end
 end
 
 knife1 = Silverware.new("knife")
+fork = Silverware.new("fork")
+spoon = Silverware.new("spoon")
 
 silverware_drawer = Drawer.new
 silverware_drawer.add_item(knife1) 
-silverware_drawer.add_item(Silverware.new("spoon"))
-silverware_drawer.add_item(Silverware.new("fork")) 
+silverware_drawer.add_item(fork)
+silverware_drawer.add_item(spoon) 
 silverware_drawer.view_contents
 
 silverware_drawer.remove_item
@@ -90,13 +105,18 @@ fork = silverware_drawer.remove_item(fork) #add some puts statements to help you
 fork.eat
 
 #BONUS SECTION
-# puts fork.clean
+fork.clean_silverware
 
 # DRIVER TESTS GO BELOW THIS LINE
 
+assert { (Drawer.instance_method(:initialize).arity) == 0 }
 
+assert { (Silverware.instance_method(:eat).arity) == 0 }
+
+assert { (Drawer.instance_method(:add_item).arity) == 1 }
 
 
 
 
 # 5. Reflection 
+#Interesting assignment trying to find out whats wrong and then attempting to fix. I'm unsure about my feelings towards this challenge. It was neither tedious or enjoyable, just neutral.
