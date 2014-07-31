@@ -15,21 +15,94 @@
 
 
 # 2. Pseudocode
+=begin
+Create pez dispenser class with an initialize method that takes flavors
+Create a method that counts amount of pez
+Create a method to remove a pez
+Create a method to add a pez
+Create a method to display the pez
 
-
-
+=end
 # 3. Initial Solution
 
 class PezDispenser
  
-# your code here!
+attr_reader :flavors
+
+	def initialize(flavors)
+		@flavors = flavors
+	end
+
+		def pez_count
+			 @flavors.count
+		end
+
+		def add_pez(item)
+			@flavors << item
+		end
+
+		def get_pez(item = @flavors.fetch(0))
+			p item
+			@flavors.delete(item)
+		end
+
+		def dump(item = @flavors)
+			@flavors.delete(item)
+			puts "Pez dispenser is now empty"
+		end
+
+		def see_all_pez
+			puts "The dispenser contains:"
+			@flavors.each do |pez|
+				puts pez
+			end
+		end
+	end
+
+
+
+
+
+
  
-end
+
  
 
 
 # 4. Refactored Solution
+class PezDispenser
+ 
+attr_reader :flavors
 
+	def initialize(flavors)
+		@flavors = flavors
+	end
+
+		def pez_count
+			 @flavors.count
+		end
+
+		def add_pez(item)
+			@flavors << item
+		end
+
+		def get_pez(item = @flavors.fetch(0))
+			p item
+			@flavors.delete(item)
+		end
+
+		def dump(item = @flavors)
+			@flavors.delete(item)
+			puts "Pez dispenser is now empty"
+		end
+
+		def see_all_pez
+			puts "The dispenser contains:"
+			@flavors.each do |pez|
+				puts pez
+			end
+		end
+	end
 
 
 
@@ -53,3 +126,4 @@ puts "Now you have #{super_mario.pez_count} pez!"
 
 
 # 5. Reflection 
+#Having the driver tests were extremely helpful. I was able to tell which methods I needed to create in order for the class to work as intended. Combine the driver tests with working with the drawer debugger challenge made this a fun challenge. It almost felt like putting a puzzle together.
