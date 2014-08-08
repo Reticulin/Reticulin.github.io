@@ -11,7 +11,7 @@ The relationship between `users` and `tweets` is: tables
 You need to have a user table with the user's info and also a tweet table which identifies the user sending the tweet so other users can distinguish.
 
 ## Release 3: Schema Design
-<!-- Include your image (inline) of your schema -->
+https://github.com/Reticulin/Reticulin.github.io/blob/master/phase-0-unit-3/week-7/imgs/twitter-schema.png
 
 ## Release 4: SQL Statements
 SELECT tweet FROM Users WHERE user_id = 1;
