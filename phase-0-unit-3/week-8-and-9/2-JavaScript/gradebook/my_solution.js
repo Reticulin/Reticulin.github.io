@@ -7,7 +7,7 @@ variables match (i.e., 'Joseph' is the first element in students; his scores are
 
 Do not alter the students and scores code.
 
-I worked on this challenge [by myself, with:]
+I worked on this challenge [by myself, with:Mark McQuillen]
 
 */
 
@@ -25,15 +25,51 @@ var scores = [ [80, 70, 70, 100],
 
 // __________________________________________
 // Write your code below.
-
-
-
-
-
+var average = function(i) {
+sum=0;
+    for(var a=0;a<i.length;a++){
+        if(typeof i[a]=="number")
+            sum+=i[a];
+    }
+    return sum/i.length;
+}
+var gradebook = {
+    Joseph : {testScores:scores[0]},
+    Susan : {testScores:scores[1]},
+    William : {testScores:scores[2]},
+    Elizabeth : {testScores:scores[3]},
+    addScore : function(name, score) {
+      gradebook[name].testScores.push(score)
+    },
+    getAverage : function(name) {
+      return average(gradebook[name].testScores)
+    }
+};
 
 // __________________________________________
 // Refactored Solution
+var average = function(array) {
+  for (
+    var i = 0,          
+      sum = 0;            
+      i < array.length;   
+      sum += array[i++]   
+  );
+  return sum/array.length;
+};
 
+var gradebook = {
+    Joseph : {testScores:scores[0]},
+    Susan : {testScores:scores[1]},
+    William : {testScores:scores[2]},
+    Elizabeth : {testScores:scores[3]},
+    addScore : function(name, score) {
+      gradebook[name].testScores.push(score)
+    },
+    getAverage : function(name) {
+      return average(gradebook[name].testScores)
+    }
+};
 
 
 
@@ -43,7 +79,7 @@ var scores = [ [80, 70, 70, 100],
 
 // __________________________________________
 // Reflect
-
+//Very long assignment, but we prevailed in the end. Our only strategy going into this was to just communicate on which release we were working on and then reasearched what we needed to do together. Took a lot of time and research, but we both remained patient and digilent in solving our challenges. Long but fruitful experience.
 
 
 
@@ -121,3 +157,4 @@ assert(
   "gradebook's getAverage should return 80 if passed 'Joseph'.",
   "9. "
 )
+
