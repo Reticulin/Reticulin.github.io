@@ -1,7 +1,7 @@
 // U3.W8-9: 
 
 
-// I worked on this challenge with: .
+// I worked on this challenge with:John Lee .
 
 // 2. Pseudocode
 //create class

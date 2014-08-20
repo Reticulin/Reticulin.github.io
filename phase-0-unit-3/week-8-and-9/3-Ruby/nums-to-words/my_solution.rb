@@ -4,11 +4,18 @@
 # I worked on this challenge [by myself, with: ].
 
 # 2. Pseudocode
-
+=begin
+split numbers in array
+use if/else statements to determine digits
+set variables for digits
+use join to join the variables for the digits
+=end
 
 
 # 3. Initial Solution
-
+def in_words(input)
+	array = input.to_s.chars.map(&:to_i)
+	if array
 
 
 
