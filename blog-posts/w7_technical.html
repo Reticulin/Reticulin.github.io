@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+	<link type="text/css" rel="stylesheet" href="stylesheets\w4technical.css"/>
+	<title>SQL Injection</title>
+</head>
+<body>
+	<div id="header">
+		<h1>SQL Injection</h1>
+	</div>
+
+	<div class="sheader">
+		<h2><u>What is SQL Injection?</u></h2>
+	</div>
+
+	<div class="content">
+		<p>
+			SQL injection is a hacking technique which tries to pass SQL statements through a web app for the backend database to execute. If hackers get through, they can view information from the database and even wipe it out if they so desired.
+		</p>
+	</div>
+
+	<div class="container">
+	</div>
+
+	<div class="sheader">
+		<h2><u>How Big an Issue is SQL Injection?</u></h2>
+	</div>
+
+	<div class="content">
+		<p>
+			I would say that this is a very big issue that we need to be more aware of. About 50% of all websites are vulnerable to SQL injection. Once a hacker knows that your database is vulnerable via SQL injection, he or she will then execute commands in order to gain access to the information stored there. From there, the hacker can decide to just delete the table and all its info or even gain access to sensitive information regarding clients or employees.
+		</p>
+	</div>
+
+	<div class="container">
+	</div>
+
+	<div class="sheader">
+		<h2><u>Prevention</u><h2>
+	</div>
+
+	<div class="content">
+		<p>
+			After reading above, SQL injection sounds pretty scary. Now you're probably wondering, "How do I prevent this!?". Don't think that you can just hide behind a firewall because since your website needs to be public, a firewall will offer little to no protection against SQL injection. One critical thing that you must do is to always patch your servers, databases, programming languages and operating systems, but that will not fully protect you. The different types of ways to prevent SQL injection are as follows: Prepared Statements (which force developers to define all the SQL code which allows the database to distinguish between code and data), Stored Procedures(which is defined and stored in the database itself and then called from the application rather than something that a user is allowed to enter) and Escaping all User Supplied Input(by doing this, the database will not confuse input with sql code). Be safe when coding everyone!
+		</p>
+	</body>
+	</html>
