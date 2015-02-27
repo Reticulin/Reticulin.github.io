@@ -1,1 +1,0 @@
-https://github.com/Reticulin/Reticulin.github.io/blob/master/phase-0-unit-3/week-8-and-9/4-SQL/your-own-db/Screen%20Shot%202014-08-18%20at%205.31.30%20PM.png
